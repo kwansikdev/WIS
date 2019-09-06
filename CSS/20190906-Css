@@ -1,0 +1,68 @@
+# CSS 선택자
+말 그대로 선택을 하게 해주는 요
+
+### 1. 반응선택자
+
+마우스의 반응에 따른 속을 설정할 수 있다
+```$xslt
+hover : 마우스를 위로 가져갈떄 반응하는 기능
+
+:hover{
+    color: skyblue;
+}
+```
+
+```$xslt
+active : 마우스를 클릭하면 반응하는 기능
+
+:active{
+    color: skyblue;
+}
+```
+
+```$xslt
+visited: 클릭하여 방문하였을 떄 반응하는 기능
+
+:visited{
+    color: skyblue;
+}
+```
+
+<br>
+
+### 2. 구조선택자
+
+계층 구조에서 특정 위치에 있는 요소를 선택구조에 따라 CSS속성이 변하는 성질을 설정
+
+```$xslt
+nht-child : n번째에 위치하는 자식(child) 요소를 모두 선택
+
+:nth-child(2n+1){
+    color: red;
+}
+```
+
+```$xslt
+:first-child // 첫번째 요소를 선택
+:last-child // 마지막 요소를 선택
+:nth-last-child // 뒤에서부터 n번째 나타나는 요소를 선택
+:first-of-type // 맨 처음으로 등장하는 요소를 선택
+:last-of-type // 맨 마지막으로 등장하는 요소를 선택
+:nth-of-type // n번째 나타나는 요소를 선택
+```
+
+<br>
+
+### 3. 상태선택자
+
+입력 양식의 상태에 따라 각각의 스타일을 별도로 설정
+
+```$xslt
+:checked // 체크된 상태의 요소를 input 요소를 선택
+```
+
+```$xslt
+:enabled // :enabled는 input 요소 중에서 사용할 수 있는 input 요소를 선택
+:disabled // :disabled는 input 요소 중에서 사용할 수 없는 input 요소를 선택
+```
+
