@@ -11,4 +11,6 @@
 
 [weekly_test_191014_#1](https://github.com/kwansikdev/WIS/blob/master/WAN/weekly_test_191014_%231.md)
 
-[weekly_test_191021_#2](https://github.com/kwansikdev/WIS/blob/master/WAN/weekly_text_191021_%232.md)
+[weekly_test_191021_#2](https://github.com/kwansikdev/WIS/blob/master/WAN/weekly_test_191021_%232.md)
+
+[weekly_test_191104_#4](https://github.com/kwansikdev/WIS/blob/master/WAN/weekly_test_191104_%234.md)
